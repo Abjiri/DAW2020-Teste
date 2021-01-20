@@ -1,4 +1,4 @@
-{ "processos":[
+[
     {
         "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.001",
         "codigo": "900.10.001",
@@ -125,4 +125,4 @@
         "titulo": "Processamento de mensagens de cortesia",
         "status": "A"
     }
-]}
+]
