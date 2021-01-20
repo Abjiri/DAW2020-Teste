@@ -22,6 +22,7 @@
         <p>
             <b>Exercício 1: </b>
         </p>
+        <p></p>
 
         <p><b>Alínea 1:</b></p>
         <p>Usei expressões regulares na ferramenta "find replace" do Visual Studio Code para colocar os nomes dos atributos dos registos entre aspas (date, title, ref, href).</p>
@@ -34,19 +35,16 @@
         <p>
             <b>Exercício 2: </b>
         </p>
+        <p></p>
+        
         <p><b>Aquecimento:</b></p>
-        <p><b>1</b></p>
-        <p>Há 21 processos de nível 3 pertencentes à descendência da classe 900. A lista dos mesmos encontra-se no ficheiro exercicio2/descendencia900.json.</p>
-        <p> Para obter esta lista, primeiro usei o Postman para enviar o pedido "http://clav-api.di.uminho.pt/v2/classes/c900/descendencia?token=", que me informou que as classes de nível 2 descendentes da class 900 eram a 900.10 e a 900.20. Sabendo isto, usei o mesmo comando para obter os descendentes destas classes e coloquei os resultados no ficheiro JSON.</p>
+        <p><b>1 - </b>Há 21 processos de nível 3 pertencentes à descendência da classe 900. A lista dos mesmos encontra-se no ficheiro exercicio2/descendencia900.json. Para obter esta lista, primeiro usei o Postman para enviar o pedido "http://clav-api.di.uminho.pt/v2/classes/c900/descendencia?token=", que me informou que as classes de nível 2 descendentes da class 900 eram a 900.10 e a 900.20. Sabendo isto, usei o mesmo comando para obter os descendentes destas classes e coloquei os resultados no ficheiro JSON.</p>
 
-        <p><b>2</b></p>
-        <p>Há 1033 entidades. Obtive este resultado pelo Postman através do pedido "http://clav-api.di.uminho.pt/v2/classes?estrutura=lista&token=" e calculando o tamanho da lista retornada.</p>
+        <p><b>2 - </b>Há 1033 entidades. Obtive este resultado pelo Postman através do pedido "http://clav-api.di.uminho.pt/v2/classes?estrutura=lista&token=" e calculando o tamanho da lista retornada.</p>
 
-        <p><b>3</b></p>
-        <p>Há 8 processos. Obtive este resultado calculado o tamanho da lista retornada pelo pedido "http://clav-api.di.uminho.pt/v2/classes/c900.10/descendencia?token=" enviado através do Postman.</p>
+        <p><b>3 - </b>Há 8 processos. Obtive este resultado calculado o tamanho da lista retornada pelo pedido "http://clav-api.di.uminho.pt/v2/classes/c900.10/descendencia?token=" enviado através do Postman.</p>
 
-        <p><b>4</b></p>
-        <p>Há 5 processos. Para esta alínea, li a API da CLAV e encontrei o pedido "http://clav-api.di.uminho.pt/v2/classes/c900.10.505/procRel?token=", que permitia selecionar exatamente os processos pedidos na questão.</p>
+        <p><b>4 - </b>Há 5 processos. Para esta alínea, li a API da CLAV e encontrei o pedido "http://clav-api.di.uminho.pt/v2/classes/c900.10.505/procRel?token=", que permitia selecionar exatamente os processos pedidos na questão.</p>
     </abstract>
 
     <deliverables>
