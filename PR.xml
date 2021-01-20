@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+<pr>
+    <meta>
+        <key>DAW2020_Teste</key>
+        <title>Project Record do teste de DAW</title>
+        <subtitle>Relatório da resolução do teste da cadeira de DAW do MIEI 2020/21</subtitle>
+        <bdate>20/01/2021</bdate>
+        <edate>20/01/2021</edate>
+        <supervisor url="http://www4.di.uminho.pt/~jcr/">José Carlos Ramalho</supervisor>
+    </meta>
+
+    <team>
+        <member id="a85006">
+            <name>Hugo André Coelho Cardoso</name>
+            <email>a85006@alunos.uminho.pt</email>
+            <url>github.com/Abjiri</url>
+        </member>
+    </team>
+
+    <abstract>
+        <p>
+            <b>Exercício 1: </b>
+        </p>
+
+        <p><b>Alínea 1:</b></p>
+        <p>Usei expressões regulares na ferramenta "find replace" do Visual Studio Code para colocar os nomes dos atributos dos registos entre aspas (date, title, ref, href).</p>
+        <p>Coloquei manualmente as aspas que estavam em falta na data de um registo e na ref de outro.</p>
+        <p>Coloquei manualmente a vírgula que estava em falta entre dois registos.</p>
+        <p>Criei um programa em JavaScript (fix.js) que percorre a lista de batismos: adiciona um campo "_id" a cada batismo, aplicando um replace atráves de regex no campo ref; adiciona campos "pai" e "mae" a cada um, através de splits do campo "title".</p>
+
+        <p><b>Alínea 3:</b> mongoimport --db testeDAW --collection batismos --file batismos.json --jsonArray</p>
+
+        <p>
+            <b>Exercício 2: </b>
+        </p>
+        <p><b>Aquecimento:</b></p>
+        <p><b>1</b></p>
+        <p>Há 21 processos de nível 3 pertencentes à descendência da classe 900. A lista dos mesmos encontra-se no ficheiro exercicio2/descendencia900.json.</p>
+        <p> Para obter esta lista, primeiro usei o Postman para enviar o pedido "http://clav-api.di.uminho.pt/v2/classes/c900/descendencia?token=", que me informou que as classes de nível 2 descendentes da class 900 eram a 900.10 e a 900.20. Sabendo isto, usei o mesmo comando para obter os descendentes destas classes e coloquei os resultados no ficheiro JSON.</p>
+
+        <p><b>2</b></p>
+        <p>Há 1033 entidades. Obtive este resultado pelo Postman através do pedido "http://clav-api.di.uminho.pt/v2/classes?estrutura=lista&token=" e calculando o tamanho da lista retornada.</p>
+
+        <p><b>3</b></p>
+        <p>Há 8 processos. Obtive este resultado calculado o tamanho da lista retornada pelo pedido "http://clav-api.di.uminho.pt/v2/classes/c900.10/descendencia?token=" enviado através do Postman.</p>
+
+        <p><b>4</b></p>
+        <p>Há 5 processos. Para esta alínea, li a API da CLAV e encontrei o pedido "http://clav-api.di.uminho.pt/v2/classes/c900.10.505/procRel?token=", que permitia selecionar exatamente os processos pedidos na questão.</p>
+    </abstract>
+
+    <deliverables>
+        <link url="https://github.com/Abjiri/DAW2020-Teste/blob/master/ex1/api-server">Aplicação desenvolvida para responder ao primeiro exercício</link>
+        <link url="https://github.com/Abjiri/DAW2020-Teste/blob/master/ex1/batismos.json">Ficheiro json de batismos corrigido</link>
+        <link url="https://github.com/Abjiri/DAW2020-Teste/blob/master/ex1/fix.js">Programa json usado para acrescentar os campos pedidos a cada registo</link>
+        <link url="https://github.com/Abjiri/DAW2020-Teste/blob/master/ex2/app-server">Aplicação desenvolvida para responder ao segundo exercício</link>
+        <link url="https://github.com/Abjiri/DAW2020-Teste/blob/master/ex2/descendencia900.json">Ficheiro JSON com a lista pedido na primeira alínea do aquecimento do segundo exercício</link>
+    </deliverables>
+</pr>

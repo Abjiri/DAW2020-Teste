@@ -1,0 +1,58 @@
+extends layout
+
+block content
+  .w3-container.w3-margin
+    h1 Classe de código #{c.codigo}
+
+    p 
+      b Nível: 
+      | #{c.nivel}
+    p 
+      b Título: 
+      | #{c.titulo}
+    p 
+      b Descrição: 
+      | #{c.descricao}
+    p 
+      b Status: 
+      | #{c.status}
+
+    if (c.filhos.length > 0)
+      h4 Filhos:
+      table.w3-table-all
+        tr
+          th Código
+          th Título
+          th Id
+          th Status
+        each f in c.filhos
+          tr
+            td
+              a(href='/classes/c' + f.codigo) #{f.codigo}
+            td= f.titulo
+            td= f.id
+            td= f.status
+
+    if (c.nivel == 3)
+      if (termosInd.length > 0)
+        h4 Termos de índice:
+        table.w3-table-all
+          tr
+            th Termo
+            th Título da classe
+          each t in termosInd
+            tr
+              td
+                a(href='/termos#' + t.termo) #{t.idTI}
+              td #{t.termo}
+
+    br    
+
+    address [ 
+      a(href='/') Página inicial 
+      | | 
+      if (c.pai.codigo)
+        a(href='/classes/c' + c.pai.codigo) Página anterior 
+      else
+        a(href='/classes') Página anterior 
+      | ]

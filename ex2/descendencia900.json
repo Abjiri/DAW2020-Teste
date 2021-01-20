@@ -1,0 +1,128 @@
+{ "processos":[
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.001",
+        "codigo": "900.10.001",
+        "titulo": "Conceção e realização de atividades ou acontecimentos artísticos",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.002",
+        "codigo": "900.10.002",
+        "titulo": "Conceção e realização de atividades desportivas ou recreativas",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.500",
+        "codigo": "900.10.500",
+        "titulo": "Organização e participação em homenagens e cerimónias comemorativas",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.501",
+        "codigo": "900.10.501",
+        "titulo": "Organização e participação em iniciativas de partilha e debate crítico",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.502",
+        "codigo": "900.10.502",
+        "titulo": "Organização e participação em iniciativas de prevenção e sensibilização",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.503",
+        "codigo": "900.10.503",
+        "titulo": "Organização e participação em iniciativas de promoção ou divulgação de produtos e serviços",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.504",
+        "codigo": "900.10.504",
+        "titulo": "Publicitação de iniciativas e atividades de terceiros",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.10.505",
+        "codigo": "900.10.505",
+        "titulo": "Organização e participação em cerimónia religiosa",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.001",
+        "codigo": "900.20.001",
+        "titulo": "Criação de imagem e identidade gráficas",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.002",
+        "codigo": "900.20.002",
+        "titulo": "Criação de produtos e artigos promocionais",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.200",
+        "codigo": "900.20.200",
+        "titulo": "Conceção de conteúdos institucionais para divulgação",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.201",
+        "codigo": "900.20.201",
+        "titulo": "Edição e publicação de conteúdos",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.400",
+        "codigo": "900.20.400",
+        "titulo": "Elaboração de informações ou esclarecimentos institucionais para a comunicação social",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.401",
+        "codigo": "900.20.401",
+        "titulo": "Promoção ou participação em conferências de imprensa e entrevistas",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.402",
+        "codigo": "900.20.402",
+        "titulo": "Recolha e tratamento de dados de imprensa",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.600",
+        "codigo": "900.20.600",
+        "titulo": "Criação e atualização de contactos institucionais",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.601",
+        "codigo": "900.20.601",
+        "titulo": "Organização de cerimónias protocolares",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.602",
+        "codigo": "900.20.602",
+        "titulo": "Organização de visitas institucionais",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.603",
+        "codigo": "900.20.603",
+        "titulo": "Processamento de pedidos de audiência",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.604",
+        "codigo": "900.20.604",
+        "titulo": "Processamento de pedidos de informação e de esclarecimento",
+        "status": "A"
+    },
+    {
+        "id": "http://jcr.di.uminho.pt/m51-clav#c900.20.605",
+        "codigo": "900.20.605",
+        "titulo": "Processamento de mensagens de cortesia",
+        "status": "A"
+    }
+]}
